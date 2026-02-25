@@ -1,375 +1,337 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arte & Dulzura | Pasteles y Maquetas Personalizadas</title>
+    <title>Detallitos de Amor | Arte & Dulzura · Riobamba</title>
     <link rel="icon" href="IMAGENES/logof.png">
-    <meta name="description"
-        content="Pasteles únicos, bocaditos gourmet y maquetas profesionales y escolares. Arte hecho a mano para tus momentos especiales.">
-    <!-- Fonts: Quicksand (Rounded titles) and Inter (Body) -->
+    <meta name="description" content="Pasteles únicos, bocaditos gourmet y maquetas personalizadas. Arte hecho a mano con amor en Riobamba, Ecuador.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Quicksand:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Tenor+Sans&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="container header-container">
-            <a href="#" class="logo">Detallitos de Amor | Arte & Dulzura</a>
-            <button class="mobile-menu-btn" aria-label="Menu">
-                <i class="fas fa-bars"></i>
-            </button>
-            <nav class="nav">
-                <a href="#inicio" class="nav-link">Inicio</a>
-                <a href="#pasteles" class="nav-link">Repostería</a>
-                <a href="#maquetas" class="nav-link">Maquetas</a>
-                <a href="#galeria" class="nav-link">Trabajos</a>
-                <a href="#contacto" class="nav-link btn-contact">Contacto</a>
-            </nav>
-        </div>
-    </header>
+<!-- Grain texture overlay -->
+<div class="grain"></div>
 
-    <!-- Hero Section -->
+<!-- ===== HEADER ===== -->
+<header class="header" id="header">
+    <div class="header-inner">
+        <a href="#inicio" class="logo">
+            <span class="logo-script">Detallitos de Amor</span>
+            <span class="logo-tagline">Arte &amp; Dulzura · Riobamba</span>
+        </a>
+        <nav class="nav" id="nav">
+            <a href="#inicio"    class="nav-link">Inicio</a>
+            <a href="#nosotros"  class="nav-link">Nosotros</a>
+            <a href="#servicios" class="nav-link">Servicios</a>
+            <a href="#galeria"   class="nav-link">Galería</a>
+            <a href="#contacto"  class="nav-link nav-cta">
+                <i class="fab fa-whatsapp"></i> Pedir ahora
+            </a>
+        </nav>
+        <button class="burger" id="burger" aria-label="Menú">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- ===== HERO ===== -->
 <section id="inicio" class="hero">
-        <div class="container hero-content">
-            
-            <div class="hero-text fade-in-up">
-                <span class="badgeline">Hecho a mano con amor y creatividad</span>
-                <h1 class="hero-title">Pasteles, Bocaditos y Maquetas Personalizadas<br>para cualquier ocasión</h1>
-                <p class="hero-subtitle">Desde el dulce detalle de un cumpleaños hasta la precisión de un proyecto
-                    arquitectónico. Creamos lo que sueñas.</p>
-                
-                <div class="hero-buttons">
-                    <a href="https://wa.me/593979420661?text=Hola,%20me%20gustaría%20hacer%20un%20pedido"
-                        class="btn btn-primary pulse">
-                        <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+    <div class="hero-watermark">dulzura</div>
+    <div class="hero-inner">
+        <div class="hero-text">
+            <p class="eyebrow">✦ Hecho a mano con amor ✦</p>
+            <h1 class="hero-title">
+                Pasteles &amp;<br>
+                <em>Maquetas</em><br>
+                para ti
+            </h1>
+            <p class="hero-sub">Cada creación nace del corazón. Personalizamos cada detalle para que tu momento sea inolvidable.</p>
+            <div class="hero-btns">
+                <a href="https://wa.me/593979420661?text=Hola,%20me%20gustaría%20hacer%20un%20pedido" class="btn-wa">
+                    <i class="fab fa-whatsapp"></i> Hacer un pedido
+                </a>
+                <a href="#galeria" class="btn-ghost">Ver galería →</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item"><span class="trust-n">+500</span><span class="trust-l">Pedidos</span></div>
+                <div class="trust-dot">·</div>
+                <div class="trust-item"><span class="trust-n">5 ★</span><span class="trust-l">Valoración</span></div>
+                <div class="trust-dot">·</div>
+                <div class="trust-item"><span class="trust-n">7 días</span><span class="trust-l">A la semana</span></div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-glow"></div>
+            <div class="hero-ring r1"></div>
+            <div class="hero-ring r2"></div>
+            <img src="IMAGENES/logo1.png" alt="Detallitos de Amor" class="hero-logo-img">
+        </div>
+    </div>
+    <div class="hero-scroll-hint">
+        <span>scroll</span>
+        <div class="scroll-bar"></div>
+    </div>
+</section>
+
+<!-- ===== NOSOTROS ===== -->
+<section id="nosotros" class="about reveal">
+    <div class="about-inner">
+        <div class="about-imgs">
+            <div class="about-img about-img--a">
+                <img src="IMAGENES/img5.png" alt="Pastel artesanal">
+            </div>
+            <div class="about-img about-img--b">
+                <img src="IMAGENES/img12.png" alt="Detalle de pastel">
+            </div>
+        </div>
+        <div class="about-text">
+            <span class="section-eyebrow">✦ Sobre nosotras ✦</span>
+            <h2 class="section-title">Creamos con <em>amor</em><br>desde Riobamba</h2>
+            <p>Somos un emprendimiento familiar dedicado a transformar tus ideas en piezas únicas. Cada pastel, cada bocadito, cada maqueta nace con ingredientes de calidad y una atención al detalle que nos distingue.</p>
+            <p>Tu celebración merece algo especial — y eso es exactamente lo que entregamos.</p>
+            <div class="about-vals">
+                <div class="aval"><div class="aval-icon"><i class="fas fa-heart"></i></div><div><strong>100% Artesanal</strong><span>Elaborado a mano con cariño</span></div></div>
+                <div class="aval"><div class="aval-icon"><i class="fas fa-palette"></i></div><div><strong>Personalizado</strong><span>Tu visión, nuestra creación</span></div></div>
+                <div class="aval"><div class="aval-icon"><i class="fas fa-clock"></i></div><div><strong>Puntual</strong><span>Entrega garantizada a tiempo</span></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SERVICIOS ===== -->
+<section id="servicios" class="services">
+    <div class="services-header reveal">
+        <span class="section-eyebrow">✦ Lo que hacemos ✦</span>
+        <h2 class="section-title">Nuestros <em>Servicios</em></h2>
+    </div>
+    <div class="services-grid">
+
+        <div class="scard reveal">
+            <div class="scard-img">
+                <img src="IMAGENES/Gemini_Generated_Image_ayt5k2ayt5k2ayt5.png" alt="Pastel personalizado">
+                <div class="scard-hover">
+                    <a href="https://wa.me/593979420661?text=Hola,%20quiero%20cotizar%20un%20pastel" class="scard-wa-btn">
+                        <i class="fab fa-whatsapp"></i> Cotizar
                     </a>
-                    <a href="#galeria" class="btn btn-secondary">Ver Trabajos</a>
                 </div>
             </div>
-
-            <div class="hero-img-container fade-in-up">
-                <img src="IMAGENES/logo1.png" alt="Logo Detallitos de Amor" class="hero-logo-img">
+            <div class="scard-body">
+                <span class="scard-cat">Repostería</span>
+                <h3>Pasteles Personalizados</h3>
+                <p>Diseños únicos para cumpleaños, bodas y celebraciones. En crema o fondant, clásicos o gourmet.</p>
+                <div class="scard-tags"><span>Cumpleaños</span><span>Bodas</span><span>Aniversarios</span></div>
+                <a href="https://wa.me/593979420661?text=Hola,%20quiero%20cotizar%20un%20pastel" class="scard-link">Cotizar ahora <i class="fas fa-arrow-right"></i></a>
             </div>
-
         </div>
-    </section>
 
-    <!-- Pasteles y Bocaditos Section -->
-    <section id="pasteles" class="section bg-cream">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Repostería Artesanal</h2>
-                <p class="section-desc">Sabores caseros y decoraciones elegantes para endulzar tus eventos.</p>
-            </div>
-
-            <div class="cards-grid">
-                <!-- Card 1: Pasteles -->
-                <div class="card">
-                    <div class="card-image">
-                        <img src="IMAGENES/Gemini_Generated_Image_ayt5k2ayt5k2ayt5.png" alt="Pastel personalizado elegante">
-                    </div>
-                    <div class="card-body">
-                        <h3>Pasteles Personalizados</h3>
-                        <p>Diseños únicos para cumpleaños, bodas y celebraciones. Sabores clásicos y gourmet con
-                            decoraciones en crema o fondant.</p>
-                        <ul class="tags">
-                            <li>Cumpleaños</li>
-                            <li>Bodas</li>
-                            <li>Aniversarios</li>
-                        </ul>
-                        <a href="https://wa.me/593979420661?text=Hola,%20quiero%20cotizar%20un%20pastel"
-                            class="btn-link">Cotizar <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Card 2: Bocaditos -->
-                <div class="card">
-                    <div class="card-image">
-                        <img src="IMAGENES/img2.png" alt="Bandeja de bocaditos gourmet">
-                    </div>
-                    <div class="card-body">
-                        <h3>Bocaditos para Eventos</h3>
-                        <p>Variedad de dulces y salados para complementar tu mesa. Alfajores, trufas, empanaditas y más.
-                        </p>
-                        <ul class="tags">
-                            <li>Defensas de Tesis</li>
-                            <li>Reuniones</li>
-                            <li>Coffee Breaks</li>
-                        </ul>
-                        <a href="https://wa.me/593979420661?text=Hola,%20quiero%20cotizar%20bocaditos"
-                            class="btn-link">Cotizar <i class="fas fa-arrow-right"></i></a>
-                    </div>
+        <div class="scard reveal">
+            <div class="scard-img">
+                <img src="IMAGENES/img2.png" alt="Bocaditos para eventos">
+                <div class="scard-hover">
+                    <a href="https://wa.me/593979420661?text=Hola,%20quiero%20cotizar%20bocaditos" class="scard-wa-btn">
+                        <i class="fab fa-whatsapp"></i> Cotizar
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Maquetas Section -->
-    <section id="maquetas" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Maquetas de Presentacion</h2>
-                <p class="section-desc">Materializamos tus ideas con precisión y creatividad. Ideal para los estudiantes.</p>
+            <div class="scard-body">
+                <span class="scard-cat">Bocaditos</span>
+                <h3>Bocaditos para Eventos</h3>
+                <p>Dulces y salados artesanales para tu mesa. Alfajores, trufas, empanaditas y mucho más.</p>
+                <div class="scard-tags"><span>Tesis</span><span>Reuniones</span><span>Coffee Break</span></div>
+                <a href="https://wa.me/593979420661?text=Hola,%20quiero%20cotizar%20bocaditos" class="scard-link">Cotizar ahora <i class="fas fa-arrow-right"></i></a>
             </div>
+        </div>
 
-            <div class="cards-grid">
-                <!-- Card 3: Maquetas Arquitectónicas -->
-                <div class="card">
-                    <div class="card-image">
-                        <img src="IMAGENES/img3.png" alt="Maqueta arquitectónica moderna">
-                    </div>
-                    <div class="card-body">
-                        <h3>Maquetas Universitarias</h3>
-                        <p>Representaciones detalladas de maquetas académicas diseñadas para
-        exposiciones, proyectos finales y presentaciones universitarias.</p>
-                        <ul class="tags">
-                            <li>Medicina</li>
-                            <li>Enfermeria</li>
-                            <li>Proyectos Finales</li>
-                        </ul>
-                        <div class="meta-info">
-                            <span><i class="far fa-clock"></i> Entrega: 2-3 días</span>
-                        </div>
-                        <a href="https://wa.me/593979420661?text=Hola,%20necesito%20una%20maqueta%20arquitectónica"
-                            class="btn-link">Solicitar <i class="fas fa-arrow-right"></i></a>
-                    </div>
+        <div class="scard reveal">
+            <div class="scard-img">
+                <img src="IMAGENES/img3.png" alt="Maquetas universitarias">
+                <div class="scard-hover">
+                    <a href="https://wa.me/593979420661?text=Hola,%20necesito%20una%20maqueta" class="scard-wa-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar
+                    </a>
                 </div>
+                <div class="scard-badge">2–3 días</div>
+            </div>
+            <div class="scard-body">
+                <span class="scard-cat">Universitario</span>
+                <h3>Maquetas Universitarias</h3>
+                <p>Representaciones precisas para exposiciones, proyectos finales y presentaciones académicas.</p>
+                <div class="scard-tags"><span>Medicina</span><span>Enfermería</span><span>Proyectos</span></div>
+                <a href="https://wa.me/593979420661?text=Hola,%20necesito%20una%20maqueta" class="scard-link">Solicitar ahora <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
 
-                <!-- Card 4: Maquetas Escolares/Creativas -->
-                <div class="card">
-                    <div class="card-image">
-                        <img src="IMAGENES/img4.png"
-                            alt="Maqueta escolar creativa del sistema solar">
-                    </div>
-                    <div class="card-body">
-                        <h3>Manualidades Escolares y Creativas</h3>
-                        <p>Proyectos educativos visualmente impactantes. Volcanes, células, sistemas solares y más.</p>
-                        <ul class="tags">
-                            <li>Escuela</li>
-                            <li>Colegio</li>
-                            <li>Fofuchas</li>
-                            <li>Ferias de Ciencias</li>
-                        </ul>
-                        <div class="meta-info">
-                            <span><i class="far fa-clock"></i> Entrega: 1-2 días</span>
-                        </div>
-                        <a href="https://wa.me/593979420661?text=Hola,%20necesito%20una%20maqueta%20escolar"
-                            class="btn-link">Solicitar <i class="fas fa-arrow-right"></i></a>
-                    </div>
+        <div class="scard reveal">
+            <div class="scard-img">
+                <img src="IMAGENES/img4.png" alt="Maquetas escolares">
+                <div class="scard-hover">
+                    <a href="https://wa.me/593979420661?text=Hola,%20necesito%20una%20maqueta%20escolar" class="scard-wa-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar
+                    </a>
                 </div>
+                <div class="scard-badge">1–2 días</div>
+            </div>
+            <div class="scard-body">
+                <span class="scard-cat">Escolar</span>
+                <h3>Manualidades Escolares</h3>
+                <p>Volcanes, células, sistemas solares y más. Proyectos visuales que impresionan.</p>
+                <div class="scard-tags"><span>Escuela</span><span>Colegio</span><span>Fofuchas</span></div>
+                <a href="https://wa.me/593979420661?text=Hola,%20necesito%20una%20maqueta%20escolar" class="scard-link">Solicitar ahora <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
-    </section>
 
-    <!-- Gallery Section -->
-    <section id="galeria" class="section bg-cream">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Galería de Trabajos</h2>
-                <p class="section-desc">Un vistazo a nuestras creaciones recientes.</p>
-            </div>
+    </div>
+</section>
 
-            <!-- Gallery Section -->
 
-    <div class="gallery-grid">
-        <div class="gallery-item">
-            <img src="IMAGENES/img5.png" alt="Pastel">
-        </div>
 
-        <div class="gallery-item">
-            <img src="IMAGENES/img6.png" alt="Pastel 1">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img10.png" alt="Pastel 2">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img7.png" alt="Bocaditos">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img8.png" alt="Pastel 3">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img9.png" alt="Reloj Mario">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img11.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img12.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img13.png" alt="Pastel detalle">
-        </div>  
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img14.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img15.png" alt="Pastel detalle">
-        </div>
+<!-- ===== GALERÍA ===== -->
+<section id="galeria" class="gallery-sec">
+    <div class="gallery-header reveal">
+        <span class="section-eyebrow">✦ Nuestro trabajo ✦</span>
+        <h2 class="section-title">Galería de <em>Creaciones</em></h2>
+    </div>
+    <div class="gallery-filters reveal">
+        <button class="gf-btn active" data-filter="all">Todos</button>
+        <button class="gf-btn" data-filter="pasteles">Pasteles</button>
+        <button class="gf-btn" data-filter="bocaditos">Bocaditos</button>
+        <button class="gf-btn" data-filter="maquetas">Manualidades</button>
+    </div>
+    <div class="gallery-grid" id="gallery">
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img5.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img6.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img10.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img7.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img8.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img9.png" alt="Maqueta"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img11.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img12.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img13.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img14.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img15.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img16.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img17.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img18.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img19.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img20.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img21.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img22.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img23.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img24.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img25.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img26.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img27.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img28.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img29.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img30.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img31.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img32.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img33.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img34.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img35.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img36.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img37.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img38.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img39.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img40.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img41.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img42.png" alt="Pastel"></div> 
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img43.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img44.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img45.png" alt="Pastel"></div> 
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img46.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img47.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img48.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img49.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img50.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img51.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img52.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img53.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img54.png" alt="Pastel"></div> 
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img55.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img56.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img57.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img58.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img59.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img60.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img61.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img62.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img63.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img64.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img65.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img66.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img67.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img68.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img69.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img70.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img71.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img72.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img73.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="bocaditos"><img src="IMAGENES/img74.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="maquetas"><img src="IMAGENES/img75.png" alt="Pastel"></div>
+        <div class="gitem reveal" data-cat="pasteles"><img src="IMAGENES/img76.png" alt="Pastel"></div>
         
-        <div class="gallery-item">
-            <img src="IMAGENES/img16.png" alt="Pastel detalle">
-        </div>
+         
 
-        <div class="gallery-item">
-            <img src="IMAGENES/img17.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img18.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img19.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img20.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img21.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img22.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img23.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img24.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img25.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img26.png" alt="Pastel detalle"> 
-        </div>  
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img27.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img28.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img29.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img30.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img31.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img32.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img33.png" alt="Pastel detalle">
-        </div>
-
-        <div class="gallery-item">
-            <img src="IMAGENES/img34.png" alt="Pastel detalle">
-        </div>
 
 
     </div>
-</div>
-```
-
 </section>
 
-    </section>
+<!-- ===== LIGHTBOX ===== -->
+<div class="lbox" id="lbox">
+    <button class="lbox-close" id="lbox-close"><i class="fas fa-times"></i></button>
+    <button class="lbox-prev"  id="lbox-prev"><i class="fas fa-chevron-left"></i></button>
+    <button class="lbox-next"  id="lbox-next"><i class="fas fa-chevron-right"></i></button>
+    <div class="lbox-wrap"><img src="" alt="" id="lbox-img"></div>
+    <div class="lbox-count" id="lbox-count"></div>
+</div>
 
-    <!-- Why Us / Features -->
-    <section class="section features-section">
-        <div class="container features-grid">
-            <div class="feature-box">
-                <i class="fa-solid fa-hand-holding-heart"></i>
-                <h3>100% Artesanal</h3>
-                <p>Cada pieza es elaborada a mano con atención extrema al detalle.</p>
-            </div>
-            <div class="feature-box">
-                <i class="fas fa-palette"></i>
-                <h3>Diseño Personalizado</h3>
-                <p>Adaptamos colores, formas y estilos a tu visión exacta.</p>
-            </div>
-            <div class="feature-box">
-                <i class="fas fa-clock"></i>
-                <h3>Puntualidad</h3>
-                <p>Compromiso total con las fechas de entrega de tu evento o tarea.</p>
+<!-- ===== WA FLOAT ===== -->
+<a href="https://wa.me/593979420661?text=Hola,%20me%20gustaría%20hacer%20un%20pedido" class="wa-float" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tip">¡Escríbenos!</span>
+</a>
+
+<!-- ===== FOOTER ===== -->
+<footer id="contacto" class="footer">
+    <div class="footer-watermark">amor</div>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span class="footer-script">Detallitos de Amor</span>
+            <span class="footer-sub">Arte &amp; Dulzura · Riobamba</span>
+            <p>Hacemos realidad tus ideas con sabor y creatividad. Tu aliado para eventos especiales y proyectos académicos.</p>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/detallitosdeamor593/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/mariela.benalcazar.14" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/593979420661" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
-    </section>
-
-    <!-- Contact & Footer -->
-    <footer id="contacto" class="footer">
-        <div class="container footer-grid">
-            <div class="footer-info">
-                <a href="#" class="logo footer-logo">Arte & Dulzura</a>
-                <p>Hacemos realidad tus ideas con sabor y creatividad. Tu aliado para eventos y proyectos.</p>
-                <div class="social-links big-links">
-                    <a href="https://www.instagram.com/detallitosdeamor593/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/mariela.benalcazar.14" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                </div>
-            </div>
-            <div class="footer-contact">
-                <h3>Contáctanos</h3>
-                <ul class="contact-list">
-                    <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/593979420661">0979420661</a></li>
-                    <li><i class="far fa-envelope"></i> mary3benalcazar@hotmail.com</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Riobamba, Ecuador</li>
-                    <li><i class="far fa-clock"></i> Lun - Dom: 8:00am - 7:00pm</li>
-                </ul>
-            </div>
-            <div class="footer-cta-col">
-                <h3>¿Listo para pedir?</h3>
-                <p>Cuéntanos que necesitas y te enviamos una cotización rápida.</p>
-                <a href="https://wa.me/593979420661" class="btn btn-primary btn-block">
-                    Chat en WhatsApp
-                </a>
-            </div>
+        <div class="footer-contact">
+            <h4>Contáctanos</h4>
+            <ul>
+                <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/593979420661">0979 420 661</a></li>
+                <li><i class="far fa-envelope"></i> mary3benalcazar@hotmail.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Riobamba, Ecuador</li>
+                <li><i class="far fa-clock"></i> Lun – Dom · 8:00 am – 7:00 pm</li>
+            </ul>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <p>&copy; 2026 Arte & Dulzura. Todos los derechos reservados.</p>
-            </div>
+        <div class="footer-cta">
+            <h4>¿Lista para pedir?</h4>
+            <p>Cuéntanos qué necesitas y te enviamos una cotización rápida y sin compromiso.</p>
+            <a href="https://wa.me/593979420661" class="btn-wa"><i class="fab fa-whatsapp"></i> Chatear ahora</a>
         </div>
-    </footer>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Detallitos de Amor · Arte &amp; Dulzura · Riobamba, Ecuador</p>
+    </div>
+</footer>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
-
-
 </html>
